@@ -31,7 +31,7 @@ if [ "$NEW_VERSION" != "$CUR_VERSION" ]; then
 
   printf "Moving CLI to /usr/local/bin/\n"
 
-  mv tenderly /usr/local/bin/
+  sudo mv tenderly /usr/local/bin/
 
   cd - > /dev/null
 
